@@ -1,0 +1,102 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title> !~!~!~!~!~! HA-MUMLAZIM !~!~!~!~!</title>
+<script language="javascript" type="text/javascript">
+// <!CDATA[
+
+function IMG1_onclick() {
+
+}
+
+// ]]>
+</script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+        <table style="width: 100%; height: 100%">
+    <tr>
+     <td style="width: 128px; height: 83px;" colspan="3">
+        <img alt="aaa" src="Images/logo.jpg" /></td>
+  
+    </tr>
+    <tr>
+
+    <td style="width: 28px; background-image:url(Images/background.JPG); height: 370px;">
+        <a href="http://www.rashut2.org.il/broadcast_channel2.asp"><img alt="ערוץ 2" src="Images/logo_two.jpg" style="width: 100px; height: 80px" /></a>
+         <a href="http://10tv.nana10.co.il/"><img alt="ערוץ 10" src="Images/logo_ten.jpg" style="width: 100px; height: 80px" /></a>
+         <a href="http://www.keshet-tv.com/"><img alt="קשת" src="Images/logo_keshet.jpg" style="width: 100px; height: 80px" /></a>
+             <a href="http://www.reshet.tv/newsite/"><img alt="רשת" src="Images/logo_reshet.jpg" style="width: 100px; height: 80px" /></a>
+        
+      </td>
+
+     <td style="width: 531px; background-image:url(Images/background2.JPG); height: 370px;">
+    
+
+<center style="text-align: right">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    &nbsp;&nbsp;</center>
+         <center>
+             &nbsp;</center>
+         <center>
+             &nbsp;</center>
+         <center>
+             &nbsp;</center>
+         <center><hr />
+             <span style="font-family: Arial"><span style="font-size: 10pt"><em>&nbsp;</em><span style="color: dimgray"><em>אתר
+                 זה הוא פרויקט סיום כיתה יא של גיא יום טוב, מקבץ טכ"מ, אוהל שם, רמת גן</em></span></span></span></center>
+         <center>
+             <span style="font-size: 10pt; color: dimgray; font-family: Arial"><em>&nbsp;כל הזכויות על
+                 העיצוב, התמליל, האלגוריתם וכל השאר שמורות בזיכרון דברים&nbsp; (C)&nbsp; (R)</em></span></center>
+         <center>
+             <span style="color: dimgray"></span><span style="font-size: 10pt; color: dimgray;
+                 font-family: Arial"><em>אין לשכפל, להעתיק או לפרסם ללא אישור את אתר זה, העבריין יתפס
+                     ומצופה לעונשים חמורים על פי חוק</em></span></center>
+         <center>
+             <span style="font-size: 10pt; color: dimgray; font-family: Arial"><em>&nbsp;צוות האתר
+                 אינו אחראי על כל וירוס שכנראה ייכנס למחשב שלכם עקב כניסתכם לאתר זה</em></span></center>
+         <center>
+             <strong><span style="font-size: 10pt; font-family: Arial">*** האתר מעודכן לאפריל 2008
+                 ***</span></strong></center>
+    </td>
+    
+    <td style="height: 370px; background-image:url(Images/background.JPG)">
+    
+<asp:Label ID="lblDate" runat="server" Text=""></asp:Label>
+        <br />
+        <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Names="Arial (Hebrew)"
+            Font-Size="12pt" Text="שלום" Visible="False"></asp:Label><br />
+        <asp:Label ID="lablwelcome" runat="server" Font-Bold="True" Font-Names="Arial (Hebrew)"
+            Font-Size="12pt" Height="20px" Visible="False" Width="14px"></asp:Label><br />
+        <br />
+        <asp:Button ID="btmAdminPage" runat="server" BackColor="#0000CC" Font-Bold="True" Font-Size="12pt"
+            ForeColor="#FFFFFF" Text="דף ניהול" Visible="False" Width="103px" OnClick="btmAdminPage_Click" /><br />
+            
+        <asp:Button ID="btmLogOut" runat="server" BackColor="#3300CC" Font-Bold="True" Font-Size="12pt"
+            ForeColor="#FFFFFF" Text="התנתק" Visible="False" Width="102px" OnClick="btmLogOut_Click" /><br />
+
+  <a href="index.aspx"><img alt="דף ראשי" src="Images/kishur_index.jpg" style="width: 108px; height: 24px" /></a><br />
+        <a href="login.aspx"><img alt="התחבר" src="Images/kishur_login.jpg" style="width: 108px; height: 24px" id="IMG1" onclick="return IMG1_onclick()" /></a><br />
+        <a href="regester.aspx"><img alt="הרשמה" src="Images/kishur_regester.jpg" style="width: 108px; height: 24px" /></a><br />
+    
+      <a href="servey.aspx"><img alt="סקרים" src="Images/kishur_seker.jpg" style="width: 108px; height: 24px" /></a><br />
+    
+      <a href="about.aspx"><img alt="אודות" src="Images/kishur_about.jpg" style="width: 108px; height: 24px" /></a><br />
+    <a href="contact.aspx"><img alt="צור קשר" src="Images/kishur_contact.jpg" style="width: 108px; height: 24px" /></a><br />
+    <br /><br /><br />
+        <img src="Images/television.jpg" style="width: 112px; height: 98px" /></td>
+    </tr>
+    
+    
+    </table>
+
+    </div>
+    </form>
+</body>
+</html>
